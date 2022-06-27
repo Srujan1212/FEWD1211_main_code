@@ -1,7 +1,7 @@
 /*
  * Title: To Do List CSS file
  */
-
+/* Iteration-1: set a property box-sizing: border-box for universal selector such that it allows us to include the padding and border in an element's total width and height.*/
 * {
   box-sizing: border-box;
 }
@@ -11,9 +11,13 @@ body {
 
 .container {
   background: whitesmoke;
+  /* Iteration-2 : give a property display block such that container such that element fills the entire line */
+  display: block;
   padding: 25px;
   max-width: 80%;
   height: 30em;
+
+   /* Iteration-3: give margin top and bottom to 12% and left and right to auto*/
   margin: 12% auto;
   overflow: hidden;
   border-radius: 10px;
@@ -49,6 +53,7 @@ h2 {
 }
 .task-button{
   border: 2px solid red;
+  /* Iteration-4: give a padding such that top and bottom inbox spacing to 8px and left and right to 20px */
   padding:8px 20px;
   color:white;
   background-color:red;
@@ -58,11 +63,13 @@ h2 {
   
 }
 .logo {
+  /* Iteration-5: set the widht to 100% of its parent element*/
   width: 100%;
   text-align: center;
 }
 
 .logo img {
+  
   width: 100px;
 }
 
@@ -75,6 +82,7 @@ h2 {
   border: 2px solid #b1c9bb;
   border-radius: 5px;
   background: #fff;
+  /* Iteration-6: set a property such that its top and bottom margin to 15px*/
   margin: 15px 0;
 }
 
